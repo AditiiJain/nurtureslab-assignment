@@ -89,7 +89,7 @@ export default function Middle() {
             <tbody>
             {Array.from(data).map((d, index) => {
               return (
-
+<>
                 <tr>
                   <td>
                     <div className="table-asset">
@@ -128,6 +128,7 @@ export default function Middle() {
                     </div>
                   </td>
                 </tr>
+                </>
               );
             })}
             </tbody>

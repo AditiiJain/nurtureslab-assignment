@@ -4,15 +4,13 @@
   display: flex;
   flex-direction: column;
   padding: 1.2rem 2.2rem;
-  /* align-items: center; */
 }
 
 .right-top {
   display: flex;
   gap: 5%;
-  /* justify-content: space-between; */
+
   width: 100%;
-  /* align-items: center; */
 }
 .right-top-button-1 {
   padding: 0.5rem 0.5rem;
@@ -51,7 +49,6 @@
 }
 
 .right-middle-head {
-  color: #fff;
   display: flex;
   gap: 5%;
   align-items: center;
@@ -174,9 +171,8 @@
   }
 }
 
-@media only screen and (min-width:1020px)
-{
-  .right{
+@media only screen and (min-width: 1020px) {
+  .right {
     width: 25%;
   }
 }
@@ -186,27 +182,23 @@
     gap: 0.15rem;
   }
   .right-bottom {
-    
     padding: 0 0.5rem;
-    
+
     gap: 1rem;
     width: 100%;
   }
-  
+
   .right-bottom-button-1 {
     padding: 0.3rem 0.8rem;
-   gap: 0.2rem;
-    
+    gap: 0.2rem;
   }
   .right-bottom-button-1 p {
     font-size: 0.8rem;
   }
-  
-  .right-bottom-button-2 {
-   
-    padding: 0.3rem 1.5rem;
-    
-    gap: 0.2rem;
 
+  .right-bottom-button-2 {
+    padding: 0.3rem 1.5rem;
+
+    gap: 0.2rem;
   }
 }
